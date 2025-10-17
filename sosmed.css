@@ -1,0 +1,50 @@
+body {
+  background-color: #5f94ff;
+  font-family: 'Segoe UI', sans-serif;
+  color: #4b2e1e;
+  text-align: center;
+}
+
+h2.Sosialmedia {
+  margin-top: 40px;
+  font-size: 35px;
+}
+
+/* container ikon */
+.sosial-icons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+/* ikon sosial media */
+.sosmed-icon {
+  font-size: 50px;
+  color: #01060e;
+  transition: transform 0.5s ease, color 0.5s ease;
+}
+
+/* animasi pas di-hover */
+.sosmed-icon:hover {
+  transform: scale(1.4) rotate(10deg);
+  color: #ffffff;
+}
+
+/* tombol kembali */
+a {
+  display: inline-block;
+  margin-top: 40px;
+  text-decoration: none;
+  color: #4b2e1e;
+  font-size: 20px;
+  background-color: #fff0f5;
+  padding: 10px 20px;
+  border-radius: 12px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+  background-color: #5f94ff;
+  transform: scale(1.1);
+}
