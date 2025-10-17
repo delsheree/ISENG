@@ -1,0 +1,151 @@
+caption {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+    text-align: center;
+    font-display: inherit;
+    color: aquamarine;
+
+}
+.title-main {
+    color: purple;
+    text-transform: uppercase;
+  }
+  
+  .title-sub {
+    color: orange;
+    font-style: italic;
+  }
+  
+  .title-small {
+    color: rgb(13, 23, 160);
+    text-decoration: underline;
+    text-align: center;
+  }
+  h1 {
+    margin-bottom: 20px; /* Jarak di bawah heading */
+  }
+  
+  p {
+    margin-top: 10px; /* Jarak di atas paragraf */
+  }
+
+  
+/* Reset CSS */
+* {
+    margin: 5px;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Styling Container */
+.profile-card {
+    width: 80%;
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: right;
+    background: linear-gradient(135deg, #f06, #4a90e2);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+
+}
+
+/* Foto Profil */
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 70%;
+    object-fit: fill;
+    border: 2px solid #3498db;
+    position: absolute;
+    top: 50px; 
+    left: 35px;
+}
+
+
+/* Nama */
+.name {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #000000;
+}
+
+/* Biodata */
+.bio {
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 15px;
+    text-align: right;
+}
+
+/* Informasi Tambahan */
+.info p {
+    font-size: 14px;
+    color: #000000;
+    margin: 5px 0;
+    text-align: right;
+}
+
+/* Tombol Sosial Media */
+.socials {
+    margin-top: 15px;
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background: #1614c0;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #2980b9;
+}
+
+.background {
+  background: radial-gradient(bottom, #ff7eb3, #ff395a);
+}
+
+.nav-area {
+    padding: 1rem;
+  }
+  
+  .back-button {
+    display: inline-block;
+    text-decoration: none;
+    color: #0066ff;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 0.6rem 1rem;
+    border-radius: 8px;
+    transition: background 0.3s;
+  }
+  
+  .back-button:hover {
+    background-color: #e0eaff;
+  }
+  
+  .back-btn {
+  display: inline-block;
+  margin-top: 20px;
+  background-color: #e1f0ff;
+  color: #1a2c5b;
+  padding: 10px 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.back-btn:hover {
+  background-color: #6fa8ff;
+  color: white;
+}
